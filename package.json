@@ -1,8 +1,12 @@
 {
   "name": "verdaccio-audit",
-  "version": "0.2.0",
+  "version": "1.0.1",
   "description": "verdaccio middleware plugin to bypass npmjs audit",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/verdaccio/verdaccio-audit"
+  },
   "scripts": {
     "test": "jest",
     "precommit": "lint-staged",
@@ -23,8 +27,8 @@
   "author": "Juan Picado <juanpicado19@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "4.16.3",
-    "request": "2.87.0"
+    "express": "4.16.4",
+    "request": "2.88.0"
   },
   "devDependencies": {
     "@commitlint/cli": "7.0.0",
